@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+           font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+           color: rgb(143, 84, 255); 
+           text-decoration: none;
+        }
+        a:visited {
+            color: rgb(143, 84, 255);
+        }
+        a:hover {
+            text-decoration: underline;
+            color: rgb(189, 113, 113);
+        }
+        a:active {
+            color: rgb(255, 187, 0);
+        }
+        a::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/BrunoFragaTetour" target="_blank">Repositorio Github</a></li>
+        <li><a href="https://instagram.com/sliptushed" target="_blank">Instagram</a></li>
+        <li><a href="https://twitter.com/sliptushed"target="_blank">Twitter</a></li>
+        <li><a href="https://color.adobe.com"target="_blank">Adobe Colors</a></li>
+
+    </ul>
+</body>
+</html>
